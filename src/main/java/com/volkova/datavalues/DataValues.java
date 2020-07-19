@@ -6,7 +6,7 @@ public class DataValues {
     ArrayList<Integer> firstList = new ArrayList<>();
     ArrayList<Integer> secondList = new ArrayList<>();
 
-    public void addInteger(){
+    public void addInteger() {
         firstList.add(1);
         firstList.add(2);
         firstList.add(3);
@@ -20,8 +20,8 @@ public class DataValues {
         secondList.add(4);
     }
 
-    public void findMatch(){
+    public void findMatch() {
         firstList.retainAll(secondList);
-        System.out.printf("Common Values: "+ firstList);
+        System.out.println("Common Values: " + firstList);
     }
 }
