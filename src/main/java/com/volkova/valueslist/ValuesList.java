@@ -3,7 +3,7 @@ package main.java.com.volkova.valueslist;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ValuesList<T> {
+public class ValuesList {
     List<Integer> integerList = new ArrayList<>();
 
     public void addInt() {
